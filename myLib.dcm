@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX1821
+K Buck regulator
+F https://datasheets.maximintegrated.com/en/ds/MAX1820-MAX1821X.pdf
+$ENDCMP
+#
+#End Doc Library
