@@ -1,6 +1,7 @@
 (footprint "ILI9341" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D2BF8F)
+  (tedit 61DAFBB6)
+  (descr "TFT display, 3.2\", ILI9341")
   (tags "Display, ILI9341, 240x320, 3.2\"")
   (attr through_hole)
   (fp_text reference "REF**" (at 0.59 -12.7) (layer "F.SilkS")
@@ -53,4 +54,9 @@
   (pad "16" thru_hole circle (at 84.3 15.24) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp baa7e054-9679-4ff4-93a8-fe9eb71b9d7a))
   (pad "17" thru_hole circle (at 84.3 17.78) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp c1387870-867c-43c9-b955-ff778011cc0c))
   (pad "18" thru_hole circle (at 84.3 20.32) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp 2f293ea2-add3-4f6e-95ab-c916f58838b4))
+  (model "${MYLIB}/3d_models/display_ILI9341_3_2_inch.step"
+    (offset (xyz 42.65 -16.5 4.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
