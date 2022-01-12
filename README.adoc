@@ -4,8 +4,10 @@
 :sectnumlevels: 4
 
 == Usage
-This module must be placed in the same directory as KiCad project (necessary because of 3D models).
-```
+. This module must be placed in the same directory as KiCad project (necessary because of 3D models).
++
+[source]
+----
 ├── kicad_project.kicad_pcb
 ├── kicad_project.kicad_pro
 ├── sch_1.kicad_sch
@@ -14,6 +16,31 @@ This module must be placed in the same directory as KiCad project (necessary bec
 ├── fp-lib-table
 ├── sym-lib-table
 ├── kicadLib   <------ THIS MODULE
-```
+----
+
+. Also KiCad project `fp-lib-table` and `sym-lib-table` should include:
++
+--
+[source]
+----
+fp-lib-table
+-----------------
+(fp_lib_table
+  (lib (name "myLib")(type "KiCad")(uri "${KIPRJMOD}/kicadLib/myLib.pretty")(options "")(descr ""))
+)
+----
+
+[source]
+----
+sym-lib-table
+-----------------
+(sym_lib_table
+  (lib (name "myLib")(type "KiCad")(uri "${KIPRJMOD}/kicadLib/myLib.kicad_sym")(options "")(descr ""))
+)
+----
+--
+
+For example take a look at link:https://github.com/bzgec/esp32_display[ESP32 display] project.
+
 
 == TODO
