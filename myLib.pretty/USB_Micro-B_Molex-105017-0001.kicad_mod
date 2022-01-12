@@ -55,7 +55,7 @@
   (pad "6" smd rect (at 1 1.2375) (size 1.5 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a8f3fb57-d72d-4e56-b518-98e829534921))
   (pad "6" smd rect (at 2.9 1.2375) (size 1.2 1.9) (layers "F.Cu" "F.Mask") (tstamp e65cdd4f-d044-4664-ac08-106160a06115))
   (pad "6" thru_hole circle (at -2.5 -1.4625) (size 1.45 1.45) (drill 0.85) (layers *.Cu *.Mask) (tstamp f6429ab2-213c-4030-a705-9f073170a98c))
-  (model "${MYLIB}/3d_models/105017-0001.step"
+  (model "${KIPRJMOD}/kicadLib/3d_models/105017-0001.step"
     (offset (xyz 0 -1 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

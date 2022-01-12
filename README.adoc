@@ -1,1 +1,19 @@
+= My KiCad library
+:toc:
+:sectnums:
+:sectnumlevels: 4
 
+== Usage
+This module must be placed in the same directory as KiCad project (necessary because of 3D models).
+```
+├── kicad_project.kicad_pcb
+├── kicad_project.kicad_pro
+├── sch_1.kicad_sch
+├── sch_2.kicad_sch
+├── fp-info-cache
+├── fp-lib-table
+├── sym-lib-table
+├── kicadLib   <------ THIS MODULE
+```
+
+== TODO
